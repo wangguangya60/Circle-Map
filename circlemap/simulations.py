@@ -98,6 +98,8 @@ def sim_ecc_reads(genome_fasta,read_length,directory,reads,exclude_regions,fastq
         # decide ecDNA length
 
         #sample circle length
+        #Why in uniform instead of normal distribution
+        #Produce normal distribution INT https://stackoverflow.com/questions/37411633/how-to-generate-a-random-normal-distribution-of-integers
         circle_length = rd.randint(150,350)
 
 
